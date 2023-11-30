@@ -230,7 +230,7 @@ if(currentTime - startTime >= interval){
  }
 else{
   strip.setPixelColor(pix, 0);
-  strip.setPixelColor(pix + 4+, 0);
+  strip.setPixelColor(pix + 4, 0);
   strip.show();
   TSState = false;
   }
